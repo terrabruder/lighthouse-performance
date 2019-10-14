@@ -1,16 +1,16 @@
 {
-	"name": "unicorn-fun-cli",
+	"name": "lightperf",
 	"version": "0.0.0",
-	"description": "My awesome command-line tool",
+	"description": "Automate the collection of request metrics across multiple lighthouse audits.",
 	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun-cli",
+	"repository": "terrabruder/lighthouse-performance",
 	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
+		"name": "Terra Bruder",
+		"email": "tsbruder@gmail.com",
+		"url": "https://github.com/terrabruder"
 	},
 	"bin": {
-		"unicorn-fun": "cli.js"
+		"lightperf": "cli.js"
 	},
 	"engines": {
 		"node": ">=8"
@@ -24,14 +24,16 @@
 	"keywords": [
 		"cli",
 		"cli-app",
-		"unicorn",
-		"fun"
+		"lighthouse",
+		"performance",
+		"metrics",
+		"website"
 	],
 	"dependencies": {
 		"meow": "^5.0.0",
 		"lighthouse": "^5.0.0",
 		"underscore": "^1.9.0",
-		"chrome-launcher": *
+		"chrome-launcher": "*"
 	},
 	"devDependencies": {
 		"ava": "^2.1.0",
