@@ -29,7 +29,8 @@
 	],
 	"dependencies": {
 		"meow": "^5.0.0",
-		"unicorn-fun": "^0.0.0"
+		"lighthouse": "^5.0.0",
+		"underscore": "^1.9.0"
 	},
 	"devDependencies": {
 		"ava": "^2.1.0",
