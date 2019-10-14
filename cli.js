@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 const meow = require('meow');
-const lightperf = require('src/lightperf');
+const lightperf = require('./src/lightperf');
 
 const cli = meow(`
 	Usage
