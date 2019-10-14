@@ -1,20 +1,17 @@
 #!/usr/bin/env node
 'use strict';
 const meow = require('meow');
-const unicornFun = require('unicorn-fun');
+const lightperf = require('src/lightperf');
 
 const cli = meow(`
 	Usage
-	  $ unicorn-fun [input]
+	  $ lightperf [url]
 
 	Options
-	  --postfix  Lorem ipsum  [Default: rainbows]
+	  --verbose  give more details about the run process
 
 	Examples
-	  $ cli-name
-	  unicorns & rainbows
-	  $ cli-name ponies
-	  ponies & rainbows
+	  NYI.
 `, {
 	flags: {
 		postfix: {
@@ -24,4 +21,4 @@ const cli = meow(`
 	}
 });
 
-console.log(moduleName(cli.input[0] || 'unicorns', cli.flags));
+console.log(lightperf(cli.input[0], cli.flags));
